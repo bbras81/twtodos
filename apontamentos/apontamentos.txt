@@ -1,0 +1,12 @@
+COMMANDOS:
+    "python3 -m venv .venv" - Comando para criar um ambiente virtual.
+
+    "source .venv/bin/activate" - Comando para ativar o ambiente virutal.
+    "deactivate" - Comando para sair do ambiente virtual.
+
+    "django-admin startproject setup ." - Comando para Começar um projeto. Irá ser criada uma pasta com o nome de steup.
+
+    "python3 manage.py runserver" - Executa o programa, e abre o servidor de desenvlvimento
+    
+
+    
