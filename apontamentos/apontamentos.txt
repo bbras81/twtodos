@@ -8,5 +8,6 @@ COMMANDOS:
 
     "python3 manage.py runserver" - Executa o programa, e abre o servidor de desenvlvimento
     
+    "python3 manage.py startapp <nome da app>" - Cria o uma app (usar o nome no plural )
 
     
