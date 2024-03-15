@@ -10,4 +10,6 @@ COMMANDOS:
     
     "python3 manage.py startapp <nome da app>" - Cria o uma app (usar o nome no plural )
 
+    "python3 manage.py migrate" - Serve para criar as bases de dados 
     
+    "python3 manage.py makemigrations" - Serve para criar as bases de dados a partir dos models.
