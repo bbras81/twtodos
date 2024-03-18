@@ -1,7 +1,13 @@
 {
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
-      }
-
+        "editor.formatOnSave": true 
+      },
+      "files.associations": {
+        "**/templates/**/*.html": "django-html"
+      },
+      "emmet.includeLanguages": {
+        "django-html": "html"
+      },
+      "sqltools.useNodeRuntime": true
 }
