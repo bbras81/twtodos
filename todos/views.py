@@ -1,5 +1,7 @@
 
 from django.views.generic import ListView, CreateView
+
+
 from .models import Todo
 
 
@@ -11,4 +13,5 @@ class TodoListView(ListView):
 
 
 class TodoCreateView(CreateView):
-    
+    model = Todo
+    fields = ["title", "dead_line"]
